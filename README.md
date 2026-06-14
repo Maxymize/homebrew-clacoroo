@@ -18,8 +18,10 @@ brew install --cask clacoroo
 ## Update
 
 ```bash
-brew upgrade --cask clacoroo
+brew update && brew upgrade --cask clacoroo
 ```
+
+`brew update` refreshes the cask definition first (so Homebrew sees the new version), then `brew upgrade` installs it. Without `brew update`, Homebrew may report "already installed" even when a newer version exists.
 
 ## Uninstall
 
