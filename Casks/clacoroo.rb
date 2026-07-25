@@ -1,14 +1,14 @@
 cask "clacoroo" do
-  version "1.2.4"
+  version "1.2.5"
 
   on_arm do
-    sha256 "8cec7337f09c5818fceb2584cb2bd367844f381f678d154c4d1ed8a176e85de8"
+    sha256 "947086ff0c040ae5cebf241c78de48948815f7a99172ad904ccb5a75eb06e40f"
 
     url "https://github.com/Maxymize/clacoroo/releases/download/v#{version}/CLACOROO-#{version}-arm64.dmg",
         verified: "github.com/Maxymize/clacoroo/"
   end
   on_intel do
-    sha256 "99fae362b05fdbffa975b5a3acf95e965f0e5b799b5efbfe53d1ccb51d8f6e1a"
+    sha256 "919c8badcc5fc5fdd946429dd534c6e479e259d54ec23bc0ce27ec79463ffec8"
 
     url "https://github.com/Maxymize/clacoroo/releases/download/v#{version}/CLACOROO-#{version}-x64.dmg",
         verified: "github.com/Maxymize/clacoroo/"
